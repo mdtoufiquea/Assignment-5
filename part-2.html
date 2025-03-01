@@ -25,7 +25,9 @@
             <h1 class=" bg-white p-2 text-lg font-bold rounded-md ">Question-1: What are the different ways to select an element in the DOM?
             </h1>
             <p class="border-b-1 border-gray-400 border-dashed "></p>
-            <p class=" bg-white p-2 text-gray-600 rounded-md ">Answer :</p>
+            <p class=" bg-white p-2 text-gray-600 rounded-md ">Answer : বিভিন্ন পদ্ধতি রয়েছে যেমন <br>
+            1. const element = document.getElementById("Id-name"); <br> 2. const elements = document.getElementsByClassName("Class-name"); <br> 3. const elements = document.getElementsByTagName("div"); <br>4. const element = document.querySelector(".Class-name"); <br> 5. const elements = document.querySelectorAll(".Class-name");
+        </p>
         </div>
         <div class="mb-2">
             <h1 class=" bg-white p-2 text-lg font-bold rounded-md ">Question-2: What is the difference between innerHTML, innerText, and textContent ?
@@ -33,25 +35,28 @@
 
             </h1>
             <p class="border-b-1 border-gray-400 border-dashed "></p>
-            <p class=" bg-white p-2 text-gray-600 rounded-md ">Answer :</p>
+            <p class=" bg-white p-2 text-gray-600 rounded-md ">Answer : 1.  innerHTML  এর মাধ্যমে html এর ভিতরে  থাকা সকল কোড কে পাওয়া যায় প্রয়োজনে এগুলো নিয়ে কাজ করা যায় <br> 2.  InnerText এর মাধ্যমে html   tag  এর ভিতরে থাকা সকল text  কে পাওয়া যায় আবার চাইলে text add ও করা যায় বাদ ও দেওয়া যায় <br> 3. Textcontent  এর মাধ্যমে সকল লুকানো text পাওয়া যার কিন্তু html tag বাদে</p>
         </div>
         <div class="mb-2">
             <h1 class=" bg-white p-2 text-lg font-bold rounded-md ">Question-3: What is event delegation in the DOM?
             </h1>
             <p class="border-b-1 border-gray-400 border-dashed "></p>
-            <p class=" bg-white p-2 text-gray-600 rounded-md ">Answer :</p>
+            <p class=" bg-white p-2 text-gray-600 rounded-md ">Answer : Event deligation এর মাধমে একটি Parent Element উপর Event লিসেনার বাবহার করে বা যোগ করে এলিমিনেটর ইভেন্ট হ্যান্ডলিং বা নিয়ন্ত্রণ করা যায়</p>
         </div>
         <div class="mb-2">
             <h1 class=" bg-white p-2 text-lg font-bold rounded-md ">Question-4: What is event bubbling in the DOM?
             </h1>
             <p class="border-b-1 border-gray-400 border-dashed "></p>
-            <p class=" bg-white p-2 text-gray-600 rounded-md ">Answer :</p>
+            <p class=" bg-white p-2 text-gray-600 rounded-md ">Answer : Event bubbling হলো এক ধরনের  ইভেন্টে বা ইভেন্টের উপর কাজ করা এই যেমন মাউস ক্লিক করলে একটা কাজ করবে বা ইভেন্ট ঘটবে কীবোড প্রেস করলে একটা কাজ করবে এ রকম বিভিন্ন কাজ করা যায়</p>
         </div>
         <div class="mb-2">
             <h1 class=" bg-white p-2 text-lg font-bold rounded-md ">Question-5: How do you create, add, and remove elements using JavaScript?
             </h1>
             <p class="border-b-1 border-gray-400 border-dashed "></p>
-            <p class=" bg-white p-2 text-gray-600 rounded-md ">Answer : </p>
+            <p class=" bg-white p-2 text-gray-600 rounded-md ">Answer : 1. const h = document.createElement("h1"); <br> 2. const container = document.getElementById("container"); <br>container.appendChild(newDiv); <br>3. const elementToRemove = document.getElementById("h1"); <br>
+                elementToRemove.remove();
+
+            </p>
         </div>
         <p class="p-2"></p>
     </main>

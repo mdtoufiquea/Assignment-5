@@ -60,6 +60,7 @@ document.getElementById('task-5').addEventListener('click', function(){
 })
 document.getElementById('task-6').addEventListener('click', function(){
     alert('board updated successfully')
+    alert('congrates!!! you have completed all the current task')
    const totalTask = document.getElementById('total-task').innerText;
    const task = document.getElementById('task').innerText;
    const convertedTotalTask6 = parseFloat(totalTask);
