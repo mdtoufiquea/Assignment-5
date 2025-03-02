@@ -12,6 +12,14 @@ document.getElementById('task-1').addEventListener('click', function(){
    const disableButton1 = document.getElementById('task-1');
     disableButton1.disabled = true;
     disableButton1.style.backgroundColor = 'gray';
+
+    const currentTime = new Date().toLocaleTimeString();
+    const container = document.getElementById('hestry')
+    const p = document.createElement('p');
+    p.innerText = `
+    You have completed the task Fix Mobile Button Issue at ${currentTime}
+    `
+    container.appendChild(p)
    
 })
 document.getElementById('task-2').addEventListener('click', function(){
@@ -28,6 +36,14 @@ document.getElementById('task-2').addEventListener('click', function(){
    const disableButton2 = document.getElementById('task-2');
     disableButton2.disabled = true;
     disableButton2.style.backgroundColor = 'gray';
+
+    const currentTime = new Date().toLocaleTimeString();
+    const container = document.getElementById('hestry')
+    const p = document.createElement('p');
+    p.innerText = `
+    You have completed the task Add Dark Mode at ${currentTime}
+    `
+    container.appendChild(p)
    
 })
 document.getElementById('task-3').addEventListener('click', function(){
@@ -44,6 +60,14 @@ document.getElementById('task-3').addEventListener('click', function(){
    const disableButton3 = document.getElementById('task-3');
     disableButton3.disabled = true;
     disableButton3.style.backgroundColor = 'gray';
+
+    const currentTime = new Date().toLocaleTimeString();
+    const container = document.getElementById('hestry')
+    const p = document.createElement('p');
+    p.innerText = `
+    You have completed the task Optimize Home page at ${currentTime}
+    `
+    container.appendChild(p)
    
 })
 document.getElementById('task-4').addEventListener('click', function(){
@@ -59,6 +83,14 @@ document.getElementById('task-4').addEventListener('click', function(){
    const disableButton4 = document.getElementById('task-4');
     disableButton4.disabled = true;
     disableButton4.style.backgroundColor = 'gray';
+
+    const currentTime = new Date().toLocaleTimeString();
+    const container = document.getElementById('hestry')
+    const p = document.createElement('p');
+    p.innerText = `
+    You have completed the task Add new emoji 🤲 at ${currentTime}
+    `
+    container.appendChild(p)
    
 })
 document.getElementById('task-5').addEventListener('click', function(){
@@ -75,6 +107,14 @@ document.getElementById('task-5').addEventListener('click', function(){
    const disableButton5 = document.getElementById('task-5');
     disableButton5.disabled = true;
     disableButton5.style.backgroundColor = 'gray';
+
+    const currentTime = new Date().toLocaleTimeString();
+    const container = document.getElementById('hestry')
+    const p = document.createElement('p');
+    p.innerText = `
+    You have completed the task Integrate OpenAI API at ${currentTime}
+    `
+    container.appendChild(p)
    
 })
 document.getElementById('task-6').addEventListener('click', function(){
@@ -92,9 +132,17 @@ document.getElementById('task-6').addEventListener('click', function(){
    const disableButton6 = document.getElementById('task-6');
     disableButton6.disabled = true;
     disableButton6.style.backgroundColor = 'gray';
+
+    const currentTime = new Date().toLocaleTimeString();
+    const container = document.getElementById('hestry')
+    const p = document.createElement('p');
+    p.innerText = `
+    You have completed the task Improve Job searching at ${currentTime}
+    `
+    container.appendChild(p)
 })
 
 
-// document.getElementById('task-6').addEventListener('click', function(){
-    
-// })
+document.getElementById('Clear').addEventListener('click', function(){
+    document.getElementById('hestry').innerHTML = ' ';
+})
